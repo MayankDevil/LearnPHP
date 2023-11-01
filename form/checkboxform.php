@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <form>
+    <form action="<?php $_SERVER['PHP_SELF']?>">
 
         <label for="">
             <input type="checkbox" name="color[]" value="red"> red
